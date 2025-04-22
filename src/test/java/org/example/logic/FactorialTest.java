@@ -26,7 +26,7 @@ class FactorialTest {
     @Test
     @DisplayName("음수 입력")
     public void testInputNegativeNum(){
-        Factorial fact = new Factorial(3);
+        Factorial fact = new Factorial(-1);
         assertTrue(fact.getResult().isEmpty()); //nullable => empty가 반환됨
     }
 
